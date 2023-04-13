@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Ribeye:wght@400&display=swap");
+.App{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f8eaa4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.false{
+    background-color:rgb(250, 190, 190);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.true{
+    background-color: rgb(153, 253, 140);
 }
 
-.App-link {
-  color: #61dafb;
+.TODO{
+    width: 75%;
+    border-radius: 15px;
+    display: flex;
+    align-items:baseline;
+    flex-direction: row;
+    margin:6px;
+    margin-left: 13%;
+}
+.input{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin:6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+    margin:6px
+}
+.time{
+    margin:6px
+}
+
+.texty{
+    width: 50%;
+}
+.buttony{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+p{
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin: 5px;
+    width: 15%;
+    height: 25px;
+    border-radius: 15px;
 }
